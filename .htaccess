@@ -1,17 +1,40 @@
+Options -MultiViews
 RewriteEngine On
 
-# Redirect /index and /index.html to root /
-RewriteRule ^index(\.html)?$ / [R=301,L]
+# Keep repository-only source and planning files out of the public web surface.
+RewriteRule ^(?:tools|\.openai)(?:/|$) - [F,L,NC]
+RewriteRule ^(?:AI-SEARCH-ROADMAP\.md|package\.json|sites-worker\.js)$ - [F,L,NC]
 
-# Serve services.html when /services or /services/ is requested
-RewriteRule ^services/?$ /services.html [L]
+# Canonical host and HTTPS. Plesk/nginx forwards the original scheme here.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^nuvelloweb\.com$ [NC]
+RewriteRule ^ https://nuvelloweb.com%{REQUEST_URI} [R=301,L]
 
-# Redirect .html URLs to clean versions (301 for SEO)
-RewriteCond %{THE_REQUEST} \s/+([^.]+)\.html[\s?] [NC]
-RewriteRule ^ /%1 [R=301,L]
+# Remove index and .html from public URLs.
+RewriteRule ^index(?:\.html)?$ / [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html(?:[\s?]|$) [NC]
+RewriteRule ^ /%1 [R=301,L,NE]
 
-# Serve .html files for clean URLs
+# Serve static .html files behind extensionless URLs.
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [L]
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 month"
+</IfModule>

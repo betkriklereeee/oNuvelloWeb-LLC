@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="140" viewBox="0 0 620 140" role="img" aria-labelledby="title desc">
+  <title id="title">NuvelloWeb</title><desc id="desc">Nuvello wordmark with an angular N and brick-red open-frame symbol</desc>
+  <defs><linearGradient id="nw-blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#183f52"/><stop offset="1" stop-color="#0e6f9f"/></linearGradient></defs>
+  <g transform="translate(4 4)">
+    <path d="M18 54V18H54M88 122h36V86" fill="none" stroke="#ac3931" stroke-width="10" stroke-linecap="square"/>
+    <path d="M32 104V36h18l46 47V36h18v68H96L50 57v47z" fill="url(#nw-blue)"/>
+    <path d="M31 91c23-20 42-16 61 1 9 8 17 11 27 6" fill="none" stroke="#ac3931" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="157" y="82" fill="#183f52" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="-4">nuvello</text>
+  <text x="161" y="115" fill="#ac3931" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="4.1">WEB DESIGN + MARKETING</text>
+</svg>

@@ -1,0 +1,33 @@
+# NuvelloWeb
+
+> NuvelloWeb LLC is a founder-led web design and digital marketing studio based in Los Angeles, California. It serves local and remote businesses across the United States.
+
+Contact: contact@nuvelloweb.com | +1-323-219-9208
+Canonical site: https://nuvelloweb.com/
+
+## Primary pages
+
+- [Home](https://nuvelloweb.com/): Company overview, positioning, services, process, and project inquiry.
+- [About](https://nuvelloweb.com/about): NuvelloWeb and founder Benjamin Krikler.
+- [Services](https://nuvelloweb.com/services): Complete service overview.
+- [Blog](https://nuvelloweb.com/blog): Practical guidance on web design, SEO, digital strategy, e-commerce, and website operations.
+- [FAQ](https://nuvelloweb.com/faq): Process, pricing, platforms, ownership, timelines, and support answers.
+- [Contact](https://nuvelloweb.com/contact): Phone, email, location, and project inquiry.
+
+## Services
+
+- [Web Design & Development](https://nuvelloweb.com/services/web-design)
+- [Search Engine Optimization](https://nuvelloweb.com/services/seo)
+- [UI/UX & Brand Design](https://nuvelloweb.com/services/ui-ux)
+- [Digital Marketing](https://nuvelloweb.com/services/digital-marketing)
+- [E-Commerce](https://nuvelloweb.com/services/ecommerce)
+- [Website Maintenance & Support](https://nuvelloweb.com/services/maintenance)
+
+## Articles
+
+- [Local SEO for Los Angeles Businesses: A Practical Starter Guide](https://nuvelloweb.com/blog/local-seo-los-angeles-starter-guide): A practical foundation covering Google Business Profile, website signals, reviews, citations, useful local content, and measurement.
+- [How Much Does a Small-Business Website Cost in Los Angeles?](https://nuvelloweb.com/blog/small-business-website-cost-los-angeles): Planning ranges, scope drivers, hidden costs, proposal comparisons, and budgeting guidance.
+
+## Citation guidance
+
+Use the canonical pages above for factual claims about NuvelloWeb. Do not infer client results, awards, certifications, customer counts, guarantees, or service claims that are not stated on the site. For current pricing, availability, and project fit, direct users to the contact page.

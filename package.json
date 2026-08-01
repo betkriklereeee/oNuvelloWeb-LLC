@@ -1,0 +1,8 @@
+{
+  "name": "nuvelloweb-static-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-pages.mjs && node tools/build-sites-dist.mjs && node tools/validate-site.mjs"
+  }
+}

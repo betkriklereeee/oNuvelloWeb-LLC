@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+  <title id="title">NuvelloWeb — Websites built to move business forward</title>
+  <defs><radialGradient id="glow" cx="78%" cy="42%" r="65%"><stop stop-color="#0e6f9f" stop-opacity=".28"/><stop offset="1" stop-color="#101418" stop-opacity="0"/></radialGradient><linearGradient id="mark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8ebe1"/><stop offset="1" stop-color="#4b9ab8"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="#101418"/><rect width="1200" height="630" fill="url(#glow)"/>
+  <g opacity=".17" stroke="#8a8f9e"><path d="M730 0v630M910 0v630M1090 0v630M650 170h550M650 350h550M650 530h550"/></g>
+  <path d="M860 0l340 0v340z" fill="#0e6f9f" opacity=".08"/><path d="M940 630l260-260v260z" fill="#ac3931" opacity=".07"/>
+  <g transform="translate(74 61) scale(.68)"><path d="M18 54V18H54M88 122h36V86" fill="none" stroke="#ac3931" stroke-width="10"/><path d="M32 104V36h18l46 47V36h18v68H96L50 57v47z" fill="url(#mark)"/><path d="M31 91c23-20 42-16 61 1 9 8 17 11 27 6" fill="none" stroke="#ac3931" stroke-width="6" stroke-linecap="round"/></g>
+  <text x="175" y="124" fill="#f7f8fb" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-3">nuvello</text>
+  <text x="178" y="153" fill="#ac3931" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3.4">WEB DESIGN + MARKETING</text>
+  <text x="76" y="318" fill="#f7f8fb" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-2"><tspan x="76">Websites built to move</tspan><tspan x="76" dy="82">business forward.</tspan></text>
+  <circle cx="83" cy="547" r="7" fill="#ac3931"/><text x="104" y="555" fill="#a8afbd" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="25">Los Angeles, California</text>
+</svg>
